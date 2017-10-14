@@ -61,16 +61,19 @@ h2{
 .titelalbuminterpol>h2{
     color:rgb(130,0,0);
     margin-top:-5px;
+    margin-left:10px;
 }
 
 .titelalbumarcadefire>h2{
     color:rgb(0,140,150);
     margin-top:-5px;
+    margin-right:7px;
 }
 
 .titelalbumgorillaz>h2{
     color:rgb(245,150,25);
     margin-top:-5px;
+    margin-left:5px;
 }
 
 .div-with-bgeen{
@@ -119,7 +122,7 @@ h2{
 }
 
 .titelbandarcadefire>h1{
-    font-size:47px;
+    font-size:60px;
     font-weight: medium;
     font-family:'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -143,7 +146,7 @@ h2{
 }
 
 .infoalbum p:last-of-type{
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Calibri light', sans-serif;
     font-size:17px;
 }
 
@@ -262,4 +265,19 @@ a.terugomhoog{
 .divterugomhoog{
     display:flex;
     justify-content:center;
+}
+
+/*wegggg */
+table{
+    width:100%;
+    font-family: 'Calibri', sans-serif;
+}
+
+td:first-child {
+    vertical-align:top;
+    font-size:20px;
+}
+
+td:last-child{
+    font-size:14px;
 }
