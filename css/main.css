@@ -27,7 +27,7 @@
 .cijfers>a {
     font-family: 'calibri', sans-serif;
     color: black;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -41,7 +41,7 @@
 }
 
 .rowcijfers{
-    margin:30px 20px 40px 20px;
+    margin:20px 20px 50px 20px;
 }
 
 .albumcovercol{
