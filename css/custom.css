@@ -29,7 +29,7 @@
    }
    
    .albumcover {
-       padding: 0px;
+       padding-bottom:20px;
    }
    
    .cijfers>a {
@@ -155,6 +155,11 @@
    
    .infoalbum p{
        display:inline;
+   }
+
+   .infoalbum{
+       padding-left:10px;
+       padding-right:10px;
    }
    
    .row > .infoalbum:first-of-type{
@@ -289,19 +294,21 @@
    
    td{
        padding-right:0px;
+       
    }
 
    td:first-child{
        vertical-align:top;
-       font-size:20px;
+       font-size:25px;
        padding-right:7px;
        width:40px;
+       vertical-align: top;
    }
    
    td:last-child{
-        vertical-align:top;
         font-size:14px;
         width:40px;
+        
    }
 
 
@@ -329,7 +336,7 @@
     }
     
     .logojam>img{
-        width:700px;
+        width:600px;
     }
    
     .cijfers>a{
@@ -341,10 +348,11 @@
     }
 
     .albumcover{
-        width:500px;
+        width:400px;
         justify-content: center;
+        padding-bottom:0px;
     }
-    
+   
     .div-with-bgeen,.div-with-bgtwee,.div-with-bgdrie{
         width: 100px;
         height: 100px;
@@ -368,9 +376,11 @@
     }
 
     .infoalbum{
-       
+        padding-left:40px;
+        padding-right:40px;
     }
-    
+      
+
     .titelnummers>h3{
         margin-top:70px;
         margin-bottom:30px;
@@ -398,7 +408,17 @@
         color:rgb(245,150,25); 
     }
 
+    td:first-child{
+        width:50px;
+    }
 
+    .titelnummers>h3{
+        margin-top:80px;
+        margin-bottom:40px;
+    }
+
+    .divbutton{
+        margin-bottom:40px;
 }
 
 
