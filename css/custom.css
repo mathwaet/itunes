@@ -348,8 +348,6 @@
     }
 
     .albumcover{
-        width:400px;
-        justify-content: center;
         padding-bottom:0px;
     }
    
@@ -376,8 +374,8 @@
     }
 
     .infoalbum{
-        padding-left:40px;
-        padding-right:40px;
+        padding-left:30px;
+        padding-right:30px;
     }
       
 
@@ -419,8 +417,15 @@
 
     .divbutton{
         margin-bottom:40px;
-}
+    }
+    .rowreverse{
+        display:flex;
+        flex-direction:row-reverse;
+    }
+    
 
+
+}
 
 
 /* Large devices (desktops, 992px and up)*/
