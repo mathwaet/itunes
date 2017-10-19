@@ -193,7 +193,7 @@
    
    .divbutton{
        margin-top: 50px;
-       margin-bottom:50px;
+       margin-bottom:20px;
        display:flex;
        justify-content:center;
    }
@@ -256,8 +256,7 @@
        padding: 11px 30px 11px 30px;
        border-radius:20px;
        background-color:white;
-       outline:none;
-       
+       outline:none;    
    }
       
    button.buttongeel:hover{
@@ -318,6 +317,14 @@
 
     .divterugomhoog{
         margin-bottom:50px;
+    }
+
+    .svgtekstje>img{
+        width:80px;
+        height:30px;
+        margin-bottom:50px;
+
+
     }
 
 /* MEDIA QUERIES
