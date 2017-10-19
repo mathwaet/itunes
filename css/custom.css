@@ -307,12 +307,18 @@
    
    td:last-child{
         font-size:14px;
-        width:40px;
-        
+        width:40px;    
    }
 
+    a.terugomhoog{
+        font-family:'Montserrat', sans-serif;
+        color:rgb(190,212,222);
+        text-transform: capitalize;
+    }
 
-
+    .divterugomhoog{
+        margin-bottom:50px;
+    }
 
 /* MEDIA QUERIES
 *********************************************/
