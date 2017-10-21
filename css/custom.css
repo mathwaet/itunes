@@ -310,22 +310,33 @@
    }
 
     a.terugomhoog{
+        margin-top:30px;
+        margin-bottom:60px;
         font-family:'Montserrat', sans-serif;
+        font-weight:500;
         color:rgb(190,212,222);
-        text-transform: capitalize;
+        text-transform: uppercase;
     }
 
-    .divterugomhoog{
-        margin-bottom:50px;
+    a.terugomhoog:active{
+       color:rgb(108, 140, 153) ;
+       text-decoration: none;
     }
+
 
     .svgtekstje>img{
         width:80px;
-        height:30px;
+        height:40px;
         margin-bottom:50px;
-
-
     }
+
+    .svgtekstjetwee, .svgtekstjedrie>img{
+        width:120px;
+        height:60px;
+        margin-bottom:50px;
+    }
+
+
 
 /* MEDIA QUERIES
 *********************************************/
@@ -436,6 +447,14 @@
         flex-direction:row-reverse;
     }
     
+    a.terugomhoog:hover{
+        color:rgb(108, 140, 153) ;
+        text-decoration: none;
+     }
+     
+    a.terugomhoog:active{
+        color:rgb(190,212,222);
+    }
 
 
 }
